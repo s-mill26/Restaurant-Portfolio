@@ -1,0 +1,28 @@
+# Change Log for Data Cleaning of Restaurant Combined Data CSV file
+
+1. Combined all separate CSV files from folder into restaurant_combined_data.xlsx
+
+2.Cleaned up multiple sheets using XLOOKUP(), CONCAT()and nested IF() functions to combine multiple data sheets into a few "clean sheets" for organization purposes.
+
+3. Hid any reference sheets, and other sheets that will not be focused on for analysis
+
+4. Created pivot tables with visuals to analyze:
+	4.1 What percentage of total revenue comes from which restaurant type and from what city, with an option to filter by restaurant type
+
+	4.2 The total Revenue gained from all meal sales with a filter option for restaurant type
+
+	4.3 The difference in order count, monthly budget, and total tips received from different genders in different cities to see if there are any significant differences
+
+	4.4 How much total revenue was created by all restaurants and all cities for a 6 month period, with the ability to drill down into specific dates.
+	
+	4.5 The top 10 customers by money spent with a distinction on how much was spent at each restaurant. With the ability to filter data by time frame.
+
+	4.6. The total amount of revenue made by each city over a 6-month period.
+
+5. Consolidated all visuals into a static excel report focusing on 4 main business metrics:
+	a. Revenue per City per restaurant type
+	b. Total revenue per meal type 
+ 	c. Total revenue per week 
+	d. Top 5 customers and which restaurants they frequent 
+
+6. Cleaned up the document as a whole and prepared/protected it for public sharing with the ability to only view the dashboard and the supporting pivot tables. 
